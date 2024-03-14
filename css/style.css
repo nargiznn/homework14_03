@@ -1,0 +1,42 @@
+body{
+    background-color: color(srgb 0.0032 0.3786 0.948);
+}
+*{
+    box-sizing: border-box;
+}
+
+.form-box{
+    margin-top: 40px;
+    border-radius: 13px;
+}
+.form-box .title{
+    background-color: color(srgb 0.9725 0.9726 0.977);
+    color: rgba(54, 61, 71, 1);
+    font-size: 30px;
+    padding: 30px;}
+
+    
+.form-box form{
+    border-top: 1px solid gainsboro;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+.helpbox{
+    height: 100px;
+    background-color: white;
+}
+
+.form-box .helpbox{
+    background-color: rgba(248, 248, 249, 1)!important;
+    text-align: center;
+
+
+
+}
+
+.form-box .helpbox a{
+    text-decoration: none;
+    padding: 50%;
+    
+}
